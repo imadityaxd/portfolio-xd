@@ -45,8 +45,8 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Bachupally cross road, <br />
-                Bachupally, Hyderabad
+                01 Firojpur, Rasra <br />
+                Ballia, Uttar Pradesh
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
