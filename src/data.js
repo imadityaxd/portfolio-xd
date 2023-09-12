@@ -36,7 +36,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Swamy understood our business needs and created a stunning e-commerce website that increased our online visibility and engagement. He is attentive, efficient and highly skilled. We highly recommend him for all your webdesign needs.",
+      "xdCoder understood our business needs and created a stunning e-commerce website that increased our online visibility and engagement. He is attentive, efficient and highly skilled. We highly recommend him for all your webdesign needs.",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
     name: "Jesse Hicks",
     company: "Meta",
@@ -56,8 +56,8 @@ export const services = [
     title: "Web Development",
   },
   {
-    quote:"Get your app or web application completed with the help of MEAN stack.",
-    title: "MEAN Development",
+    quote:"Get your app or web application completed with the help of MERN stack.",
+    title: "MERN Development",
   },
   {
     quote:"I'll create a software or redesign your previous one.",
@@ -68,7 +68,7 @@ export const services = [
 export const skills = [
   "MongoDB",
   "Express.js",
-  "Angular.js",
+  "React.js",
   "Node.js",
   "JavaScript",
   "JAVA",
@@ -77,27 +77,27 @@ export const skills = [
 ];
 export const education =[
   {
-    course: "Degree",
-    specialization: "BCA",
-    institute: "Pragya Degree College",
-    board:"Osmania University",
-    year:"2022",
+    course: "Diploma",
+    specialization: "CSE",
+    institute: "Government Polytechnic Mau",
+    board:"BTEUP",
+    year:"2023",
     percentage:"8.0",
   },
   {
     course: "Intermediate",
     specialization: "M.P.C",
-    institute: "Narayan Junior College, Guntakal",
-    board:"Board of Intermediate Education",
-    year:"2019",
-    percentage:"7.9",
+    institute: "Babu Ramjeet Singh Inter College, Mirjapur",
+    board:"UP Board",
+    year:"2022",
+    percentage:"7.0",
   },
   {
     course: "CBSE",
     specialization: "10th",
-    institute: "Kendriya Vidyalaya, Guntakal",
+    institute: "Devasthaly Vidyapeeth, Ballia",
     board:"Central Board of Secondary Education",
-    year:"2017",
-    percentage:"9.2",
+    year:"2019",
+    percentage:"8.4",
   },
 ];

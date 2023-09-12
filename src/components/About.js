@@ -6,12 +6,12 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Swamy Ranga Reddy.
+            Hi, I'm xdCoder
           </h1>
-          <h1 className="title-font sm:text-3xl text-2xl mb-4 font-small text-gray">
-          Stacking Excellence in MEAN Development!</h1>
+          <h1 className="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray">
+          I build things for the web.</h1>
           <p className="mb-8 leading-relaxed">
-          I'm both a software engineer and a front-end developer, with a diverse range of skills including Angular, BootStrap, Python, Java, and MongoDB.
+          I'm both a software engineer and a front-end developer, with a diverse range of skills including React, BootStrap, Python, Java, and MongoDB.
           </p>
           <div className="flex justify-center">
             <a
