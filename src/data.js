@@ -2,18 +2,16 @@ export const projects = [
   {
     title: "Compound Interest",
     subtitle: "JavaScript",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    description:"A simple tool to calculate compound interest created using vanilla javascript.",
     image: "./calC.jpg",
-    link: "https://reactbootcamp.com",
+    link: "#",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    title: "Weather app",
+    subtitle: "JavaScript and API",
+    description:"Weather app creating using Vanilla JS and weather data is fetched using API from https://api.openweathermap.org .",
+    image: "./weather.jpg",
+    link: "#",
   },
 ];
 
