@@ -1,10 +1,10 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Compound Interest",
+    subtitle: "JavaScript",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+    image: "./calC.jpg",
     link: "https://reactbootcamp.com",
   },
   {
@@ -13,22 +13,6 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   },
 ];
@@ -82,15 +66,7 @@ export const education =[
     institute: "Government Polytechnic Mau",
     board:"BTEUP",
     year:"2023",
-    percentage:"8.0",
-  },
-  {
-    course: "Intermediate",
-    specialization: "M.P.C",
-    institute: "Babu Ramjeet Singh Inter College, Mirjapur",
-    board:"UP Board",
-    year:"2022",
-    percentage:"7.0",
+    percentage:"78.9",
   },
   {
     course: "CBSE",
@@ -98,6 +74,6 @@ export const education =[
     institute: "Devasthaly Vidyapeeth, Ballia",
     board:"Central Board of Secondary Education",
     year:"2019",
-    percentage:"8.4",
+    percentage:"84.17",
   },
 ];
