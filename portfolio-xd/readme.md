@@ -1,1 +1,0 @@
-A portfolio using Vite and React
