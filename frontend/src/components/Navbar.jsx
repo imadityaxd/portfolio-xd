@@ -1,12 +1,14 @@
 import { Fragment, useState } from 'react'
+import codingImage from '/assets/coding3.jpg'
 import { Menu, Transition, Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon, BellIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Projects', href: '#projects', current: false },
+  { name: 'Skills', href: '#skills', current: false },
+  { name: 'Services', href: '#services', current: false },
+  { name: 'About', href: '#about', current: false },
 ]
 
 function classNames(...classes) {
@@ -15,7 +17,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-slate-800 text-white">
+    <Disclosure as="nav" className="bg-gray-800 sticky top-0 z-50 shadow-lg text-white">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -24,7 +26,7 @@ export default function Navbar() {
               <div className="flex items-center">
                 <img
                   className="h-8 w-8"
-                  src="https://tailwindcss.com/_next/static/media/mark.6b5525df.svg"
+                  src={codingImage}
                   alt="Logo"
                 />
                 <div className="hidden md:block ml-6 space-x-4">
@@ -66,7 +68,7 @@ export default function Navbar() {
                   <Menu.Button className="rounded-full focus:outline-none">
                     <img
                       className="h-8 w-8 rounded-full"
-                      src="https://avatars.githubusercontent.com/u/1?v=4"
+                      src={codingImage}
                       alt="User"
                     />
                   </Menu.Button>
