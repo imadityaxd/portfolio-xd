@@ -85,12 +85,6 @@ export default function Navbar() {
                       <Menu.Item>
                         <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">Your Profile</a>
                       </Menu.Item>
-                      <Menu.Item>
-                        <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">Settings</a>
-                      </Menu.Item>
-                      <Menu.Item>
-                        <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">Sign out</a>
-                      </Menu.Item>
                     </Menu.Items>
                   </Transition>
                 </Menu>

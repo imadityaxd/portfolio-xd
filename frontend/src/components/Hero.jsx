@@ -23,11 +23,12 @@ On a journey to craft impactful tech solutions — one project at a time.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <a
-              href="#contact"
+              href="https://xdcoder.hashnode.dev/"
+              target="_blank"
               className="px-4 py-2 rounded-lg text-md uppercase text-white bg-teal-500 hover:bg-teal-400 text-white
  hover:bg-pink-400 transition"
             >
-              Contact Me
+              View Blog
             </a>
             <a
               href="#projects"
