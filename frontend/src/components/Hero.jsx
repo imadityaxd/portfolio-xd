@@ -1,5 +1,5 @@
 import React from "react";
-import codingImage from '/assets/coding3.jpg'
+import codingImage from '/assets/coding_background.jpg'
 
 export default function Hero() {
   return (
@@ -43,7 +43,7 @@ On a journey to craft impactful tech solutions — one project at a time.
           <img
             src={codingImage}
             alt="Hero illustration"
-            className="max-w-xs md:max-w-sm rounded-lg"
+            className="max-w-sm md:max-w-xl rounded-lg"
           />
         </div>
       </div>
