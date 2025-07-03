@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-gray-900 text-white py-16 px-4">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-4xl font-bold text-teal-400 text-center mb-8">Contact Me</h2>
+        <h2 className="text-4xl font-bold text-teal-200 text-center mb-8">Contact Me</h2>
 
         <form onSubmit={handleSubmit} className="space-y-6 bg-gray-800 p-8 rounded-lg shadow-lg">
           <div>

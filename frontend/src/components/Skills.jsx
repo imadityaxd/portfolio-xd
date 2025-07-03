@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaDatabase } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaDatabase, FaPython, FaFlask, FaPepperHot } from 'react-icons/fa';
 import { SiMongodb, SiExpress } from 'react-icons/si';
 
 const skills = [
@@ -11,6 +11,8 @@ const skills = [
   { name: 'MongoDB', icon: <SiMongodb className="text-green-600" /> },
   { name: 'Git', icon: <FaGitAlt className="text-red-500" /> },
   { name: 'Database', icon: <FaDatabase className="text-indigo-400" /> },
+  { name: 'Python', icon: <FaPython className="text-indigo-600" /> },
+  { name: 'Flask', icon: <FaPepperHot className="text-red-600" /> },
 ];
 
 export default function Skills() {

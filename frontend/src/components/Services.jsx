@@ -23,7 +23,7 @@ export default function Services() {
   return (
     <section id="services" className="bg-gray-900 text-white py-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-teal-400 mb-12">What I Offer</h2>
+        <h2 className="text-4xl font-bold text-teal-200 mb-12">What I Offer</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div

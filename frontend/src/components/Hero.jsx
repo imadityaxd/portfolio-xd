@@ -1,4 +1,5 @@
 import React from "react";
+import { Typewriter } from 'react-simple-typewriter';
 import codingImage from '/assets/coding_background.jpg'
 
 export default function Hero() {
@@ -9,17 +10,31 @@ export default function Hero() {
         {/* Text Section */}
         <div className="w-full lg:w-2/5 space-y-6">
           <div className="w-20 h-2 bg-white dark:bg-white" />
-          <h1 className="text-6xl sm:text-8xl font-black uppercase font-bebas-neue leading-none text-white  dark:text-white">
-            xdCoder
+          <h1 className="text-6xl sm:text-8xl font-black uppercase font-bebas-neue leading-none text-white  dark:text-white ">
+            <span className="drop-shadow-[2px_2px_0px_black]   ">xdCoder</span>
             <br />
             <span className="text-xl sm:text-3xl">I build things for the web.</span>
           </h1>
           <p className="text-sm sm:text-base text-gray-200 dark:text-white">
-            Hi, I'm <span className="font-bold">Aditya Sharma</span> 👋  <br/>
-Aspiring MERN Stack Developer | Computer Science Undergrad <br/>
+            
+            <h2 className="text-l md:text-xl font-medium mb-2">
+              Hi, I'm Aditya, 
+              a&nbsp;
+              <span className="text-cyan-400 font-semibold">
+                <Typewriter
+                  words={['Full Stack Developer','Freelancer', 'Backend Developer']}
+                  loop={true}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={70}
+                  deleteSpeed={40}
+                  delaySpeed={1500}
+                />
+              </span>
+            </h2>
 
-I build responsive, modern full-stack web apps using MongoDB, Express, React, and Node.js.  
-On a journey to craft impactful tech solutions — one project at a time.
+            I build responsive, modern full-stack web apps using MongoDB, Express, React, and Node.js.
+            On a journey to craft impactful tech solutions — one project at a time.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <a
