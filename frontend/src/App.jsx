@@ -23,7 +23,6 @@ function App() {
     <About/>
     <Contact/>
     <Footer/>
-      <h1 className="text-red-500">aditya</h1>
     </>
   )
 }
