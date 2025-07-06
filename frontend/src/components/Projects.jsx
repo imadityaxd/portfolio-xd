@@ -3,8 +3,8 @@ const projects = [
     title: 'Language Translator',
     description: 'A full-stack language translation tool created using Flask and Gemini API.',
     image: '/assets/languageTranslator.png',
-    liveLink: 'https://your-portfolio.com',
-    codeLink: 'https://your-portfolio.com',
+    liveLink: 'https://languagetranslationtool.onrender.com/',
+    codeLink: 'https://github.com/imadityaxd/CODEALPHA_LanguageTranslationTool',
   },
   {
     title: 'Quiz Website',
@@ -17,8 +17,8 @@ const projects = [
     title: 'Chatbot',
     description: 'A Chatbot created using Flask and GeminiAPI.',
     image: '/assets/chatbot.png',
-    liveLink: '#',
-    codeLink: '#',
+    liveLink: 'https://chatbot-272p.onrender.com',
+    codeLink: 'https://github.com/imadityaxd/CodeAlpha_ChatbotForFAQs',
   },
 ];
 
