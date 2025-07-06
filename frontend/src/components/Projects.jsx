@@ -39,7 +39,7 @@ export default function ProjectsSection() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-52 object-cover"
+                className="w-full h-64 object-cover"
               />
 
               <div className="p-6 flex flex-col flex-1">
