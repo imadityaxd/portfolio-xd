@@ -2,6 +2,7 @@ import { Fragment, useState } from 'react'
 import codingImage from '/assets/coding3.jpg'
 import { Menu, Transition, Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon, BellIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
+import { FaArrowRight } from 'react-icons/fa'
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
@@ -59,12 +60,12 @@ export default function Navbar() {
 
               {/* Right: Icons */}
               <div className="flex items-center gap-4">
-                <button className="text-gray-300 hover:text-white">
+                {/* <button className="text-gray-300 hover:text-white">
                   <BellIcon className="h-6 w-6" />
-                </button>
+                </button> */}
 
                 {/* Profile dropdown */}
-                <Menu as="div" className="relative">
+                {/* <Menu as="div" className="relative">
                   <Menu.Button className="rounded-full focus:outline-none">
                     <img
                       className="h-8 w-8 rounded-full"
@@ -87,19 +88,25 @@ export default function Navbar() {
                       </Menu.Item>
                     </Menu.Items>
                   </Transition>
-                </Menu>
+                </Menu> */}
+                {/**Contact Button */}
+                <a 
+                  href='#contact'
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg text-md uppercase text-white bg-teal-800 hover:bg-teal-600 text-white
+ hover:bg-pink-400 transition">Contact me <FaArrowRight/></a>
 
-                {/* Mobile menu button */}
-                <div className="md:hidden">
-                  <Disclosure.Button className="inline-flex items-center justify-center p-2 text-gray-400 hover:bg-slate-700 hover:text-white">
-                    <span className="sr-only">Open main menu</span>
-                    {open ? (
-                      <XMarkIcon className="block h-6 w-6" />
-                    ) : (
-                      <Bars3Icon className="block h-6 w-6" />
-                    )}
-                  </Disclosure.Button>
-                </div>
+
+                  {/* Mobile menu button */}
+                  <div className="md:hidden">
+                    <Disclosure.Button className="inline-flex items-center justify-center p-2 text-gray-400 hover:bg-slate-700 hover:text-white">
+                      <span className="sr-only">Open main menu</span>
+                      {open ? (
+                        <XMarkIcon className="block h-6 w-6" />
+                      ) : (
+                        <Bars3Icon className="block h-6 w-6" />
+                      )}
+                    </Disclosure.Button>
+                  </div>
               </div>
             </div>
           </div>
