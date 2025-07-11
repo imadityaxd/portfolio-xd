@@ -4,8 +4,14 @@ import codingImage from '/assets/coding_background.jpg'
 
 export default function Hero() {
   return (
-    <section className="relative h-screen overflow-hidden bg-gradient-to-r from-gray-900 via-teal-600 to-gray-800
- dark:bg-gray-800 ">
+    <section className="
+  relative h-screen overflow-hidden 
+  bg-gradient-to-br from-gray-900 via-gray-900 via-teal-600 to-gray-800     // Mobile (corner-to-corner)
+  sm:bg-gradient-to-r sm:from-gray-900 sm:via-teal-600 sm:to-gray-800       // Desktop (left-to-right)
+  dark:bg-gray-800
+">
+
+
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-6 py-16 relative z-20">
         {/* Text Section */}
         <div className="w-full lg:w-2/5 space-y-6">
@@ -16,13 +22,13 @@ export default function Hero() {
             <span className="text-xl sm:text-3xl">I build things for the web.</span>
           </h1>
           <p className="text-sm sm:text-base text-gray-200 dark:text-white">
-            
+
             <h2 className="text-l md:text-xl font-medium mb-2">
-              Hi, I'm Aditya, 
+              Hi, I'm Aditya,
               a&nbsp;
               <span className="text-cyan-400 font-semibold">
                 <Typewriter
-                  words={['Full Stack Developer','Freelancer', 'Backend Developer']}
+                  words={['Full Stack Developer', 'Freelancer', 'Backend Developer']}
                   loop={true}
                   cursor
                   cursorStyle="|"

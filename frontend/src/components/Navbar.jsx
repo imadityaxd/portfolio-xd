@@ -1,5 +1,6 @@
 import { Fragment, useState } from 'react'
 import codingImage from '/assets/coding3.jpg'
+import adiResume from '/assets/adityaResume.pdf'
 import { Menu, Transition, Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon, BellIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import { FaArrowRight } from 'react-icons/fa'
@@ -92,7 +93,8 @@ export default function Navbar() {
                 </Menu> */}
                 {/**Contact Button */}
                 <a 
-                  href='#'
+                  href={adiResume}
+                  target = "_blank"
                   className="flex items-center gap-2 px-4 py-2 rounded-lg text-md uppercase text-white bg-teal-800 hover:bg-teal-600 text-white
  hover:bg-pink-400 transition">My Resume <FaArrowRight/></a>
 
