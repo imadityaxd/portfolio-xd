@@ -20,10 +20,10 @@ export default function Footer() {
           <a href="https://github.com/imadityaxd" target="_blank" rel="noopener noreferrer" className="hover:text-white">
             <i className="fab fa-github text-xl"></i>
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+          <a href="https://www.linkedin.com/in/imadityaxd/" target="_blank" rel="noopener noreferrer" className="hover:text-white">
             <i className="fab fa-linkedin text-xl"></i>
           </a>
-          <a href="mailto:youremail@example.com" className="hover:text-white">
+          <a href="mailto:xdcoder.xyz@gmail.com" className="hover:text-white">
             <i className="fas fa-envelope text-xl"></i>
           </a>
         </div>
